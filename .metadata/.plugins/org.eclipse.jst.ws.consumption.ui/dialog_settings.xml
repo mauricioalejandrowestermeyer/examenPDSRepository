@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.jst.ws.client.type.java">
+		<item value="http://localhost:8080/temperatureConvertor-imp/services/TemperatureConverterService?wsdl"/>
+		<item value="http://localhost:8080/axis2/services/HelloWorld?wsdl"/>
+		<item value="/prueba/WebContent/wsdl/HelloWorld.wsdl"/>
+	</list>
+</section>

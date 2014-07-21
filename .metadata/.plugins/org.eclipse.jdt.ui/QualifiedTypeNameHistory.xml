@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.web.hello.HelloWorldProxy"/>
+<fullyQualifiedTypeName name="com.web.hello.HelloWorldStub.Salute"/>
+<fullyQualifiedTypeName name="com.web.hello.HelloWorld"/>
+<fullyQualifiedTypeName name="com.web.hello.HelloWorldCallbackHandler"/>
+<fullyQualifiedTypeName name="com.web.hello.HelloWorldStub"/>
+<fullyQualifiedTypeName name="com.web.hello.HelloWorldStub.SaluteResponse"/>
+<fullyQualifiedTypeName name="com.web.hello.ArregloOrdenado"/>
+<fullyQualifiedTypeName name="com.web.hello.Palindrome"/>
+<fullyQualifiedTypeName name="cst_dom.Cst_temperatura"/>
+<fullyQualifiedTypeName name="java.lang.Double"/>
+<fullyQualifiedTypeName name="cst_dom.Cst_tipo_consulta"/>
+<fullyQualifiedTypeName name="cst_dom.Cst_usuario"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="com.web.converter.TemperatureConverterServiceStub"/>
+<fullyQualifiedTypeName name="com.web.converter.TemperatureConverterServiceStub.ConvertTemperature"/>
+<fullyQualifiedTypeName name="com.web.converter.TemperatureConverterServiceStub.ConvertTemperatureResponse"/>
+<fullyQualifiedTypeName name="com.convertor.service.TemperatureConvertorService"/>
+</qualifiedTypeNameHistroy>
