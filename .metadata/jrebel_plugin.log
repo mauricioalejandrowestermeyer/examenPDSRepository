@@ -1,0 +1,742 @@
+2014-07-20 19:19:46.575 [Worker-1] DEBUG AgentProvider - setInitializationData. isBetafalse; location jrebel/
+2014-07-20 19:19:46.582 [Worker-1] DEBUG AgentProvider - setInitializationData. isBetatrue; location jr6/jrebel/
+2014-07-20 19:19:46.634 [Worker-1] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2014-07-20 19:19:47.019 [Worker-1] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:54849/jrebel/notifications
+2014-07-20 19:19:47.034 [Worker-1] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-07-20 19:19:47.049 [Worker-1] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\Mauricio\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Program Files\Software\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-07-20 19:19:47.056 [Worker-1] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@1273422b
+2014-07-20 19:19:47.124 [JRebel License Expiration Notification Checker] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-07-20 19:19:47.125 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\Mauricio\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Program Files\Software\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-07-20 19:19:47.131 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@3c9f64f4
+2014-07-20 19:19:52.090 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@3c9f64f4 stopped with exit code 0
+2014-07-20 19:19:52.274 [Worker-1] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@1273422b stopped with exit code 0
+2014-07-20 19:19:52.339 [Worker-1] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-07-20 19:19:52.341 [Thread-20] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\Mauricio\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Program Files\Software\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-07-20 19:19:52.352 [Thread-20] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@7a8e717a
+2014-07-20 19:19:56.514 [Thread-20] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@7a8e717a stopped with exit code 0
+2014-07-20 19:22:52.946 [Worker-7] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Tomcat v6.0 Server at localhost
+2014-07-20 19:22:52.947 [Worker-7] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.jdt.launching.CLASSPATH=[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry containerPath="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre8" path="2" type="4"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="C:/Users/Mauricio/Downloads/apache-tomcat-6.0.41/apache-tomcat-6.0.41/bin/bootstrap.jar" path="3" type="2"/>
+]
+entry: org.eclipse.jdt.launching.DEFAULT_CLASSPATH=false
+entry: org.eclipse.jdt.launching.JRE_CONTAINER=org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre8
+entry: org.eclipse.jdt.launching.PROGRAM_ARGUMENTS=start
+entry: org.eclipse.jdt.launching.VM_ARGUMENTS=-Dcatalina.base="C:\Program Files\Software\workspaces\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0" -Dcatalina.home="C:\Users\Mauricio\Downloads\apache-tomcat-6.0.41\apache-tomcat-6.0.41" -Dwtp.deploy="C:\Program Files\Software\workspaces\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps" -Djava.endorsed.dirs="C:\Users\Mauricio\Downloads\apache-tomcat-6.0.41\apache-tomcat-6.0.41\endorsed"
+entry: server-id=Tomcat v6.0 Server at localhost
+2014-07-20 19:23:09.840 [Worker-5] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Tomcat v6.0 Server at localhost
+2014-07-20 19:23:09.840 [Worker-5] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.jdt.launching.CLASSPATH=[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry containerPath="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre8" path="2" type="4"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="C:/Users/Mauricio/Downloads/apache-tomcat-6.0.41/apache-tomcat-6.0.41/bin/bootstrap.jar" path="3" type="2"/>
+]
+entry: org.eclipse.jdt.launching.DEFAULT_CLASSPATH=false
+entry: org.eclipse.jdt.launching.JRE_CONTAINER=org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre8
+entry: org.eclipse.jdt.launching.PROGRAM_ARGUMENTS=start
+entry: org.eclipse.jdt.launching.VM_ARGUMENTS=-Dcatalina.base="C:\Program Files\Software\workspaces\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0" -Dcatalina.home="C:\Users\Mauricio\Downloads\apache-tomcat-6.0.41\apache-tomcat-6.0.41" -Dwtp.deploy="C:\Program Files\Software\workspaces\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps" -Djava.endorsed.dirs="C:\Users\Mauricio\Downloads\apache-tomcat-6.0.41\apache-tomcat-6.0.41\endorsed"
+entry: server-id=Tomcat v6.0 Server at localhost
+2014-07-20 19:26:41.323 [Worker-10] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Salute
+2014-07-20 19:26:41.324 [Worker-10] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/pruebaUI/src/com/web/hello/implementation/Salute.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.implementation.Salute
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=pruebaUI
+2014-07-20 19:27:00.328 [Worker-6] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Tomcat v6.0 Server at localhost
+2014-07-20 19:27:00.328 [Worker-6] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.jdt.launching.CLASSPATH=[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry containerPath="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre8" path="2" type="4"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="C:/Users/Mauricio/Downloads/apache-tomcat-6.0.41/apache-tomcat-6.0.41/bin/bootstrap.jar" path="3" type="2"/>
+]
+entry: org.eclipse.jdt.launching.DEFAULT_CLASSPATH=false
+entry: org.eclipse.jdt.launching.JRE_CONTAINER=org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre8
+entry: org.eclipse.jdt.launching.PROGRAM_ARGUMENTS=start
+entry: org.eclipse.jdt.launching.VM_ARGUMENTS=-Dcatalina.base="C:\Program Files\Software\workspaces\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0" -Dcatalina.home="C:\Users\Mauricio\Downloads\apache-tomcat-6.0.41\apache-tomcat-6.0.41" -Dwtp.deploy="C:\Program Files\Software\workspaces\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps" -Djava.endorsed.dirs="C:\Users\Mauricio\Downloads\apache-tomcat-6.0.41\apache-tomcat-6.0.41\endorsed"
+entry: server-id=Tomcat v6.0 Server at localhost
+2014-07-20 19:27:33.295 [Worker-7] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Salute
+2014-07-20 19:27:33.296 [Worker-7] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/pruebaUI/src/com/web/hello/implementation/Salute.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.implementation.Salute
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=pruebaUI
+2014-07-20 19:49:52.131 [JRebel License Expiration Notification Checker] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-07-20 19:49:52.132 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\Mauricio\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Program Files\Software\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-07-20 19:49:52.139 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@71ef8f24
+2014-07-20 19:49:55.805 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@71ef8f24 stopped with exit code 0
+2014-07-20 20:19:55.811 [JRebel License Expiration Notification Checker] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-07-20 20:19:55.811 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\Mauricio\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Program Files\Software\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-07-20 20:19:55.814 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@50d2c839
+2014-07-20 20:19:59.530 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@50d2c839 stopped with exit code 0
+2014-07-20 20:49:59.540 [JRebel License Expiration Notification Checker] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-07-20 20:49:59.541 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\Mauricio\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Program Files\Software\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-07-20 20:49:59.549 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@6fa3ffe1
+2014-07-20 20:50:03.788 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@6fa3ffe1 stopped with exit code 0
+2014-07-20 21:20:03.792 [JRebel License Expiration Notification Checker] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-07-20 21:20:03.793 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\Mauricio\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Program Files\Software\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-07-20 21:20:03.804 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@45ec0dc5
+2014-07-20 21:20:08.075 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@45ec0dc5 stopped with exit code 0
+2014-07-20 22:19:32.872 [Worker-2] DEBUG AgentProvider - setInitializationData. isBetafalse; location jrebel/
+2014-07-20 22:19:33.066 [Worker-2] DEBUG AgentProvider - setInitializationData. isBetatrue; location jr6/jrebel/
+2014-07-20 22:19:33.262 [Worker-2] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2014-07-20 22:19:35.577 [Worker-2] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:57900/jrebel/notifications
+2014-07-20 22:19:35.863 [Worker-2] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-07-20 22:19:35.950 [JRebel License Expiration Notification Checker] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-07-20 22:19:36.659 [Worker-2] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\Mauricio\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Program Files\Software\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-07-20 22:19:36.659 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\Mauricio\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Program Files\Software\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-07-20 22:19:36.673 [Worker-2] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@549e7c1b
+2014-07-20 22:19:36.688 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@1237e913
+2014-07-20 22:19:44.240 [Worker-2] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@549e7c1b stopped with exit code 0
+2014-07-20 22:19:44.242 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@1237e913 stopped with exit code 0
+2014-07-20 22:19:44.701 [Worker-2] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-07-20 22:19:44.704 [Thread-22] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\Mauricio\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Program Files\Software\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-07-20 22:19:44.709 [Thread-22] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@53be8f5d
+2014-07-20 22:19:48.603 [Thread-22] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@53be8f5d stopped with exit code 0
+2014-07-20 22:24:24.807 [Worker-8] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=true, -Drebel.stats=true, -Drebel.properties=C:\Users\Mauricio\.jrebel\jrebel.properties, -jar, C:\Program Files\Software\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444\jrebel\jrebel.jar, -statistics]...
+2014-07-20 22:24:24.809 [Worker-8] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@6209fecf
+2014-07-20 22:24:25.024 [Worker-9] DEBUG OverviewPage - Updating license information on view
+2014-07-20 22:24:25.025 [Worker-9] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-07-20 22:24:25.026 [Worker-9] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\Mauricio\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Program Files\Software\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-07-20 22:24:25.029 [Worker-9] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@74df543d
+2014-07-20 22:24:25.410 [Worker-8] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@6209fecf stopped with exit code 0
+2014-07-20 22:24:29.309 [Worker-9] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@74df543d stopped with exit code 0
+2014-07-20 22:24:29.311 [Worker-9] DEBUG OverviewPage - finalStatus: false null
+2014-07-20 22:42:48.193 [Worker-16] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Tomcat v6.0 Server at localhost
+2014-07-20 22:42:48.193 [Worker-16] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.jdt.launching.CLASSPATH=[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry containerPath="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre8" path="2" type="4"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="C:/Users/Mauricio/Downloads/apache-tomcat-6.0.41/apache-tomcat-6.0.41/bin/bootstrap.jar" path="3" type="2"/>
+]
+entry: org.eclipse.jdt.launching.DEFAULT_CLASSPATH=false
+entry: org.eclipse.jdt.launching.JRE_CONTAINER=org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre8
+entry: org.eclipse.jdt.launching.PROGRAM_ARGUMENTS=start
+entry: org.eclipse.jdt.launching.VM_ARGUMENTS=-Dcatalina.base="C:\Program Files\Software\workspaces\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0" -Dcatalina.home="C:\Users\Mauricio\Downloads\apache-tomcat-6.0.41\apache-tomcat-6.0.41" -Dwtp.deploy="C:\Program Files\Software\workspaces\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps" -Djava.endorsed.dirs="C:\Users\Mauricio\Downloads\apache-tomcat-6.0.41\apache-tomcat-6.0.41\endorsed"
+entry: server-id=Tomcat v6.0 Server at localhost
+2014-07-20 22:44:10.326 [main] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for testaxis2
+2014-07-20 22:44:10.326 [main] DEBUG RebelArgsFixingLaunchListener - 
+entry: client-id=org.eclipse.wst.server.ui.web
+entry: launchable-adapter-id=org.eclipse.jst.server.tomcat.web
+entry: module-artifact=org.eclipse.jst.jee.server:testaxis2//
+entry: module-artifact-class=org.eclipse.wst.server.core.util.WebResource
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4]
+entry: server-id=Tomcat v6.0 Server at localhost
+2014-07-20 22:49:44.285 [JRebel License Expiration Notification Checker] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-07-20 22:49:44.285 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\Mauricio\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Program Files\Software\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-07-20 22:49:44.288 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@6a8eacbe
+2014-07-20 22:49:51.513 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@6a8eacbe stopped with exit code 0
+2014-07-20 23:00:33.951 [Worker-12] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Tomcat v6.0 Server at localhost
+2014-07-20 23:00:33.952 [Worker-12] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.jdt.launching.CLASSPATH=[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry containerPath="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre8" path="2" type="4"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="C:/Users/Mauricio/Downloads/apache-tomcat-6.0.41/apache-tomcat-6.0.41/bin/bootstrap.jar" path="3" type="2"/>
+]
+entry: org.eclipse.jdt.launching.DEFAULT_CLASSPATH=false
+entry: org.eclipse.jdt.launching.JRE_CONTAINER=org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre8
+entry: org.eclipse.jdt.launching.PROGRAM_ARGUMENTS=start
+entry: org.eclipse.jdt.launching.VM_ARGUMENTS=-Dcatalina.base="C:\Program Files\Software\workspaces\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0" -Dcatalina.home="C:\Users\Mauricio\Downloads\apache-tomcat-6.0.41\apache-tomcat-6.0.41" -Dwtp.deploy="C:\Program Files\Software\workspaces\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps" -Djava.endorsed.dirs="C:\Users\Mauricio\Downloads\apache-tomcat-6.0.41\apache-tomcat-6.0.41\endorsed"
+entry: server-id=Tomcat v6.0 Server at localhost
+2014-07-20 23:02:32.278 [Worker-23] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Tomcat v6.0 Server at localhost
+2014-07-20 23:02:32.279 [Worker-23] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.jdt.launching.CLASSPATH=[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry containerPath="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre8" path="2" type="4"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="C:/Users/Mauricio/Downloads/apache-tomcat-6.0.41/apache-tomcat-6.0.41/bin/bootstrap.jar" path="3" type="2"/>
+]
+entry: org.eclipse.jdt.launching.DEFAULT_CLASSPATH=false
+entry: org.eclipse.jdt.launching.JRE_CONTAINER=org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre8
+entry: org.eclipse.jdt.launching.PROGRAM_ARGUMENTS=start
+entry: org.eclipse.jdt.launching.VM_ARGUMENTS=-Dcatalina.base="C:\Program Files\Software\workspaces\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0" -Dcatalina.home="C:\Users\Mauricio\Downloads\apache-tomcat-6.0.41\apache-tomcat-6.0.41" -Dwtp.deploy="C:\Program Files\Software\workspaces\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps" -Djava.endorsed.dirs="C:\Users\Mauricio\Downloads\apache-tomcat-6.0.41\apache-tomcat-6.0.41\endorsed"
+entry: server-id=Tomcat v6.0 Server at localhost
+2014-07-20 23:06:34.688 [main] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for testaxis2
+2014-07-20 23:06:34.688 [main] DEBUG RebelArgsFixingLaunchListener - 
+entry: client-id=org.eclipse.wst.server.ui.web
+entry: launchable-adapter-id=org.eclipse.jst.server.tomcat.web
+entry: module-artifact=org.eclipse.jst.jee.server:testaxis2//
+entry: module-artifact-class=org.eclipse.wst.server.core.util.WebResource
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4]
+entry: server-id=Tomcat v6.0 Server at localhost
+2014-07-20 23:06:40.477 [Worker-21] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Tomcat v6.0 Server at localhost
+2014-07-20 23:06:40.478 [Worker-21] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.jdt.launching.CLASSPATH=[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry containerPath="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre8" path="2" type="4"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="C:/Users/Mauricio/Downloads/apache-tomcat-6.0.41/apache-tomcat-6.0.41/bin/bootstrap.jar" path="3" type="2"/>
+]
+entry: org.eclipse.jdt.launching.DEFAULT_CLASSPATH=false
+entry: org.eclipse.jdt.launching.JRE_CONTAINER=org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre8
+entry: org.eclipse.jdt.launching.PROGRAM_ARGUMENTS=start
+entry: org.eclipse.jdt.launching.VM_ARGUMENTS=-Dcatalina.base="C:\Program Files\Software\workspaces\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0" -Dcatalina.home="C:\Users\Mauricio\Downloads\apache-tomcat-6.0.41\apache-tomcat-6.0.41" -Dwtp.deploy="C:\Program Files\Software\workspaces\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps" -Djava.endorsed.dirs="C:\Users\Mauricio\Downloads\apache-tomcat-6.0.41\apache-tomcat-6.0.41\endorsed"
+entry: server-id=Tomcat v6.0 Server at localhost
+2014-07-20 23:19:51.529 [JRebel License Expiration Notification Checker] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-07-20 23:19:51.530 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\Mauricio\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Program Files\Software\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-07-20 23:19:51.532 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@598c50b4
+2014-07-20 23:19:56.234 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@598c50b4 stopped with exit code 0
+2014-07-20 23:30:50.515 [Worker-45] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TestHelloWorld
+2014-07-20 23:30:50.515 [Worker-45] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/TestHelloWorld.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.TestHelloWorld
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-20 23:31:44.721 [Worker-46] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TestHelloWorld
+2014-07-20 23:31:44.721 [Worker-46] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/TestHelloWorld.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.TestHelloWorld
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-20 23:49:56.252 [JRebel License Expiration Notification Checker] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-07-20 23:49:56.252 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\Mauricio\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Program Files\Software\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-07-20 23:49:56.255 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@7698d0fd
+2014-07-20 23:50:00.577 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@7698d0fd stopped with exit code 0
+2014-07-21 00:20:00.594 [JRebel License Expiration Notification Checker] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-07-21 00:20:00.595 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\Mauricio\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Program Files\Software\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-07-21 00:20:00.598 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@f515e7e
+2014-07-21 00:20:05.024 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@f515e7e stopped with exit code 0
+2014-07-21 00:21:35.970 [Worker-69] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TestHelloWorld
+2014-07-21 00:21:35.970 [Worker-69] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/TestHelloWorld.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.TestHelloWorld
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 00:35:21.252 [Worker-79] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TestHelloWorld
+2014-07-21 00:35:21.252 [Worker-79] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/TestHelloWorld.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.TestHelloWorld
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 01:14:59.754 [Worker-2] DEBUG AgentProvider - setInitializationData. isBetafalse; location jrebel/
+2014-07-21 01:14:59.774 [Worker-2] DEBUG AgentProvider - setInitializationData. isBetatrue; location jr6/jrebel/
+2014-07-21 01:15:00.180 [Worker-2] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2014-07-21 01:15:00.765 [Worker-2] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:60432/jrebel/notifications
+2014-07-21 01:15:00.832 [Worker-2] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-07-21 01:15:00.881 [Worker-2] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\Mauricio\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Program Files\Software\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-07-21 01:15:00.887 [Worker-2] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@3ddc75f0
+2014-07-21 01:15:01.162 [JRebel License Expiration Notification Checker] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-07-21 01:15:01.164 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\Mauricio\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Program Files\Software\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-07-21 01:15:01.171 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@2e8fab44
+2014-07-21 01:15:07.005 [Worker-2] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@3ddc75f0 stopped with exit code 0
+2014-07-21 01:15:07.646 [Worker-2] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-07-21 01:15:07.649 [Thread-24] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\Mauricio\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Program Files\Software\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-07-21 01:15:07.654 [Thread-24] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@957d196
+2014-07-21 01:15:08.098 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@2e8fab44 stopped with exit code 0
+2014-07-21 01:15:11.559 [Thread-24] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@957d196 stopped with exit code 0
+2014-07-21 01:20:04.964 [Worker-2] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for ListUntitledData
+2014-07-21 01:20:04.965 [Worker-2] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/ormsamples/ListUntitledData.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=ormsamples.ListUntitledData
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 01:45:08.104 [JRebel License Expiration Notification Checker] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-07-21 01:45:08.105 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\Mauricio\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Program Files\Software\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-07-21 01:45:08.110 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@56362d87
+2014-07-21 01:45:12.339 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@56362d87 stopped with exit code 0
+2014-07-21 09:56:56.923 [Worker-1] DEBUG AgentProvider - setInitializationData. isBetafalse; location jrebel/
+2014-07-21 09:56:56.951 [Worker-1] DEBUG AgentProvider - setInitializationData. isBetatrue; location jr6/jrebel/
+2014-07-21 09:56:57.283 [Worker-1] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2014-07-21 09:56:58.365 [Worker-1] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:62738/jrebel/notifications
+2014-07-21 09:56:58.387 [Worker-1] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-07-21 09:56:58.398 [Worker-1] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\Mauricio\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Program Files\Software\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-07-21 09:56:58.400 [Worker-1] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@12d1727
+2014-07-21 09:56:58.724 [JRebel License Expiration Notification Checker] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-07-21 09:56:58.725 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\Mauricio\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Program Files\Software\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-07-21 09:56:58.727 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@5971a51e
+2014-07-21 09:57:21.886 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@5971a51e stopped with exit code 0
+2014-07-21 09:57:21.886 [Worker-1] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@12d1727 stopped with exit code 0
+2014-07-21 09:57:22.432 [Worker-1] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-07-21 09:57:22.436 [Thread-23] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\Mauricio\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Program Files\Software\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-07-21 09:57:22.438 [Thread-23] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@6e7b3939
+2014-07-21 09:57:44.739 [Thread-23] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@6e7b3939 stopped with exit code 0
+2014-07-21 10:02:09.446 [Worker-2] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TestHelloWorld
+2014-07-21 10:02:09.446 [Worker-2] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/TestHelloWorld.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.TestHelloWorld
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 10:41:35.505 [JRebel License Expiration Notification Checker] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-07-21 10:41:35.507 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\Mauricio\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Program Files\Software\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-07-21 10:41:35.531 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@366ca559
+2014-07-21 10:41:37.519 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@366ca559 stopped with exit code 0
+2014-07-21 10:53:55.378 [Worker-13] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 10:53:55.379 [Worker-13] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 10:54:22.355 [Worker-3] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 10:54:22.355 [Worker-3] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 10:54:29.502 [Worker-14] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 10:54:29.502 [Worker-14] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 10:54:38.622 [Worker-19] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 10:54:38.622 [Worker-19] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 10:55:44.884 [Worker-15] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 10:55:44.885 [Worker-15] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 10:56:54.225 [Worker-13] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 10:56:54.225 [Worker-13] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 10:57:39.396 [Worker-18] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 10:57:39.396 [Worker-18] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 10:59:12.910 [Worker-15] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 10:59:12.911 [Worker-15] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 10:59:56.457 [Worker-18] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 10:59:56.458 [Worker-18] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 11:01:04.264 [Worker-13] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 11:01:04.264 [Worker-13] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 11:01:43.890 [Worker-17] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 11:01:43.890 [Worker-17] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 11:02:37.657 [Worker-13] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 11:02:37.657 [Worker-13] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 11:06:28.823 [Worker-16] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 11:06:28.823 [Worker-16] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 11:06:47.925 [Worker-15] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 11:06:47.925 [Worker-15] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 11:07:20.161 [Worker-21] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 11:07:20.161 [Worker-21] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 11:07:26.551 [Worker-21] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 11:07:26.552 [Worker-21] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 11:07:40.028 [Worker-23] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 11:07:40.029 [Worker-23] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 11:08:25.210 [Worker-21] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 11:08:25.210 [Worker-21] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 11:09:10.923 [Worker-22] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 11:09:10.924 [Worker-22] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 11:09:36.737 [Worker-22] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 11:09:36.737 [Worker-22] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 11:10:04.963 [Worker-16] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 11:10:04.964 [Worker-16] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 11:10:26.382 [Worker-16] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 11:10:26.382 [Worker-16] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 11:10:39.775 [Worker-26] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 11:10:39.776 [Worker-26] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 11:11:37.534 [JRebel License Expiration Notification Checker] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-07-21 11:11:37.535 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\Mauricio\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Program Files\Software\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-07-21 11:11:37.536 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@304918c4
+2014-07-21 11:11:46.528 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@304918c4 stopped with exit code 0
+2014-07-21 11:13:41.368 [Worker-23] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 11:13:41.368 [Worker-23] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 11:13:53.188 [Worker-15] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 11:13:53.188 [Worker-15] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 11:24:17.091 [Worker-34] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 11:24:17.092 [Worker-34] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 11:25:02.684 [Worker-32] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 11:25:02.684 [Worker-32] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 11:25:08.927 [Worker-31] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 11:25:08.927 [Worker-31] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 11:25:16.973 [Worker-35] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 11:25:16.973 [Worker-35] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 11:25:22.963 [Worker-32] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 11:25:22.963 [Worker-32] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 11:25:45.754 [Worker-33] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 11:25:45.754 [Worker-33] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 11:26:54.195 [Worker-36] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 11:26:54.195 [Worker-36] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 11:27:21.068 [Worker-32] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 11:27:21.068 [Worker-32] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 11:28:16.551 [Worker-38] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 11:28:16.552 [Worker-38] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 11:29:34.123 [Worker-39] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Palindrome
+2014-07-21 11:29:34.123 [Worker-39] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/testaxis2/src/com/web/hello/Palindrome.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.hello.Palindrome
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=testaxis2
+2014-07-21 11:47:33.529 [JRebel License Expiration Notification Checker] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-07-21 11:47:33.530 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\Mauricio\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Program Files\Software\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-07-21 11:47:33.535 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@30044f64
+2014-07-21 11:47:35.442 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@30044f64 stopped with exit code 0
+2014-07-21 12:13:49.252 [Worker-49] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for ListUntitledData (1)
+2014-07-21 12:13:49.253 [Worker-49] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/temperatureConvertor-server/src/ormsamples/ListUntitledData.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=ormsamples.ListUntitledData
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=temperatureConvertor-server
+2014-07-21 12:17:35.458 [JRebel License Expiration Notification Checker] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-07-21 12:17:35.458 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\Mauricio\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Program Files\Software\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-07-21 12:17:35.460 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@48a4e682
+2014-07-21 12:17:39.428 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@48a4e682 stopped with exit code 0
+2014-07-21 12:47:39.441 [JRebel License Expiration Notification Checker] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-07-21 12:47:39.442 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\Mauricio\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Program Files\Software\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-07-21 12:47:39.444 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@3d787992
+2014-07-21 12:47:43.832 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@3d787992 stopped with exit code 0
+2014-07-21 13:13:28.941 [Worker-69] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Tomcat v6.0 Server at localhost
+2014-07-21 13:13:28.941 [Worker-69] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.jdt.launching.CLASSPATH=[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry containerPath="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre8" path="2" type="4"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="C:/Users/Mauricio/Downloads/apache-tomcat-6.0.41/apache-tomcat-6.0.41/bin/bootstrap.jar" path="3" type="2"/>
+]
+entry: org.eclipse.jdt.launching.DEFAULT_CLASSPATH=false
+entry: org.eclipse.jdt.launching.JRE_CONTAINER=org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre8
+entry: org.eclipse.jdt.launching.PROGRAM_ARGUMENTS=start
+entry: org.eclipse.jdt.launching.VM_ARGUMENTS=-Dcatalina.base="C:\Program Files\Software\workspaces\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0" -Dcatalina.home="C:\Users\Mauricio\Downloads\apache-tomcat-6.0.41\apache-tomcat-6.0.41" -Dwtp.deploy="C:\Program Files\Software\workspaces\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps" -Djava.endorsed.dirs="C:\Users\Mauricio\Downloads\apache-tomcat-6.0.41\apache-tomcat-6.0.41\endorsed"
+entry: server-id=Tomcat v6.0 Server at localhost
+2014-07-21 13:15:05.316 [main] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for temperatureConvertor-imp
+2014-07-21 13:15:05.316 [main] DEBUG RebelArgsFixingLaunchListener - 
+entry: client-id=org.eclipse.wst.server.ui.web
+entry: launchable-adapter-id=org.eclipse.jst.server.tomcat.web
+entry: module-artifact=org.eclipse.jst.jee.server:temperatureConvertor-imp//
+entry: module-artifact-class=org.eclipse.wst.server.core.util.WebResource
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/temperatureConvertor-imp]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4]
+entry: server-id=Tomcat v6.0 Server at localhost
+2014-07-21 13:16:27.061 [Worker-78] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Tomcat v6.0 Server at localhost
+2014-07-21 13:16:27.061 [Worker-78] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.jdt.launching.CLASSPATH=[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry containerPath="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre8" path="2" type="4"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="C:/Users/Mauricio/Downloads/apache-tomcat-6.0.41/apache-tomcat-6.0.41/bin/bootstrap.jar" path="3" type="2"/>
+]
+entry: org.eclipse.jdt.launching.DEFAULT_CLASSPATH=false
+entry: org.eclipse.jdt.launching.JRE_CONTAINER=org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre8
+entry: org.eclipse.jdt.launching.PROGRAM_ARGUMENTS=start
+entry: org.eclipse.jdt.launching.VM_ARGUMENTS=-Dcatalina.base="C:\Program Files\Software\workspaces\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0" -Dcatalina.home="C:\Users\Mauricio\Downloads\apache-tomcat-6.0.41\apache-tomcat-6.0.41" -Dwtp.deploy="C:\Program Files\Software\workspaces\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps" -Djava.endorsed.dirs="C:\Users\Mauricio\Downloads\apache-tomcat-6.0.41\apache-tomcat-6.0.41\endorsed"
+entry: server-id=Tomcat v6.0 Server at localhost
+2014-07-21 13:16:31.586 [main] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for temperatureConvertor-imp
+2014-07-21 13:16:31.586 [main] DEBUG RebelArgsFixingLaunchListener - 
+entry: client-id=org.eclipse.wst.server.ui.web
+entry: launchable-adapter-id=org.eclipse.jst.server.tomcat.web
+entry: module-artifact=org.eclipse.jst.jee.server:temperatureConvertor-imp//
+entry: module-artifact-class=org.eclipse.wst.server.core.util.WebResource
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/temperatureConvertor-imp]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4]
+entry: server-id=Tomcat v6.0 Server at localhost
+2014-07-21 13:17:43.842 [JRebel License Expiration Notification Checker] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-07-21 13:17:43.842 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\Mauricio\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Program Files\Software\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-07-21 13:17:43.844 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@1eec8756
+2014-07-21 13:17:47.915 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@1eec8756 stopped with exit code 0
+2014-07-21 13:28:59.743 [Worker-82] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TemperatureConverterTest
+2014-07-21 13:28:59.744 [Worker-82] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/temperatureConverter-client/src/com/web/converter/TemperatureConverterTest.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.converter.TemperatureConverterTest
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=temperatureConverter-client
+2014-07-21 13:29:49.597 [main] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for temperatureConvertor-imp
+2014-07-21 13:29:49.597 [main] DEBUG RebelArgsFixingLaunchListener - 
+entry: client-id=org.eclipse.wst.server.ui.web
+entry: launchable-adapter-id=org.eclipse.jst.server.tomcat.web
+entry: module-artifact=org.eclipse.jst.jee.server:temperatureConvertor-imp//
+entry: module-artifact-class=org.eclipse.wst.server.core.util.WebResource
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/temperatureConvertor-imp]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4]
+entry: server-id=Tomcat v6.0 Server at localhost
+2014-07-21 13:30:14.369 [Worker-89] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TemperatureConverterTest
+2014-07-21 13:30:14.369 [Worker-89] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/temperatureConverter-client/src/com/web/converter/TemperatureConverterTest.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.converter.TemperatureConverterTest
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=temperatureConverter-client
+2014-07-21 13:30:50.570 [Worker-89] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Tomcat v6.0 Server at localhost
+2014-07-21 13:30:50.570 [Worker-89] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.jdt.launching.CLASSPATH=[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry containerPath="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre8" path="2" type="4"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="C:/Users/Mauricio/Downloads/apache-tomcat-6.0.41/apache-tomcat-6.0.41/bin/bootstrap.jar" path="3" type="2"/>
+]
+entry: org.eclipse.jdt.launching.DEFAULT_CLASSPATH=false
+entry: org.eclipse.jdt.launching.JRE_CONTAINER=org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre8
+entry: org.eclipse.jdt.launching.PROGRAM_ARGUMENTS=start
+entry: org.eclipse.jdt.launching.VM_ARGUMENTS=-Dcatalina.base="C:\Program Files\Software\workspaces\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0" -Dcatalina.home="C:\Users\Mauricio\Downloads\apache-tomcat-6.0.41\apache-tomcat-6.0.41" -Dwtp.deploy="C:\Program Files\Software\workspaces\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps" -Djava.endorsed.dirs="C:\Users\Mauricio\Downloads\apache-tomcat-6.0.41\apache-tomcat-6.0.41\endorsed"
+entry: server-id=Tomcat v6.0 Server at localhost
+2014-07-21 13:31:02.689 [Worker-84] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TemperatureConverterTest
+2014-07-21 13:31:02.689 [Worker-84] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/temperatureConverter-client/src/com/web/converter/TemperatureConverterTest.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.converter.TemperatureConverterTest
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=temperatureConverter-client
+2014-07-21 13:33:24.293 [Worker-89] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TestService
+2014-07-21 13:33:24.293 [Worker-89] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/temperatureConvertor-server/src/com/convertor/test/TestService.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.convertor.test.TestService
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=temperatureConvertor-server
+2014-07-21 13:38:06.281 [Worker-89] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TestService
+2014-07-21 13:38:06.281 [Worker-89] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/temperatureConvertor-server/src/com/convertor/test/TestService.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.convertor.test.TestService
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=temperatureConvertor-server
+2014-07-21 13:38:46.414 [Worker-84] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TestService
+2014-07-21 13:38:46.415 [Worker-84] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/temperatureConvertor-server/src/com/convertor/test/TestService.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.convertor.test.TestService
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=temperatureConvertor-server
+2014-07-21 13:39:45.642 [Worker-89] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TestService
+2014-07-21 13:39:45.643 [Worker-89] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/temperatureConvertor-server/src/com/convertor/test/TestService.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.convertor.test.TestService
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=temperatureConvertor-server
+2014-07-21 13:42:12.177 [Worker-89] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TestService
+2014-07-21 13:42:12.177 [Worker-89] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/temperatureConvertor-server/src/com/convertor/test/TestService.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.convertor.test.TestService
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=temperatureConvertor-server
+2014-07-21 13:45:11.833 [Worker-97] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TestService
+2014-07-21 13:45:11.833 [Worker-97] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/temperatureConvertor-server/src/com/convertor/test/TestService.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.convertor.test.TestService
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=temperatureConvertor-server
+2014-07-21 13:47:47.929 [JRebel License Expiration Notification Checker] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-07-21 13:47:47.929 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\Mauricio\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Program Files\Software\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-07-21 13:47:47.930 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@547bca8e
+2014-07-21 13:47:51.319 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@547bca8e stopped with exit code 0
+2014-07-21 13:49:56.193 [Worker-81] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TestService
+2014-07-21 13:49:56.193 [Worker-81] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/temperatureConvertor-server/src/com/convertor/test/TestService.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.convertor.test.TestService
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=temperatureConvertor-server
+2014-07-21 13:50:57.091 [Worker-102] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Tomcat v6.0 Server at localhost
+2014-07-21 13:50:57.091 [Worker-102] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.jdt.launching.CLASSPATH=[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry containerPath="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre8" path="2" type="4"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="C:/Users/Mauricio/Downloads/apache-tomcat-6.0.41/apache-tomcat-6.0.41/bin/bootstrap.jar" path="3" type="2"/>
+]
+entry: org.eclipse.jdt.launching.DEFAULT_CLASSPATH=false
+entry: org.eclipse.jdt.launching.JRE_CONTAINER=org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre8
+entry: org.eclipse.jdt.launching.PROGRAM_ARGUMENTS=start
+entry: org.eclipse.jdt.launching.VM_ARGUMENTS=-Dcatalina.base="C:\Program Files\Software\workspaces\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0" -Dcatalina.home="C:\Users\Mauricio\Downloads\apache-tomcat-6.0.41\apache-tomcat-6.0.41" -Dwtp.deploy="C:\Program Files\Software\workspaces\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps" -Djava.endorsed.dirs="C:\Users\Mauricio\Downloads\apache-tomcat-6.0.41\apache-tomcat-6.0.41\endorsed"
+entry: server-id=Tomcat v6.0 Server at localhost
+2014-07-21 13:51:31.679 [Worker-103] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TemperatureConverterTest
+2014-07-21 13:51:31.679 [Worker-103] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/temperatureConverter-client/src/com/web/converter/TemperatureConverterTest.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.converter.TemperatureConverterTest
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=temperatureConverter-client
+2014-07-21 13:53:14.784 [Worker-107] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TestService
+2014-07-21 13:53:14.785 [Worker-107] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/temperatureConvertor-server/src/com/convertor/test/TestService.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.convertor.test.TestService
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=temperatureConvertor-server
+2014-07-21 13:54:48.324 [Worker-107] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TestServiceImplementation
+2014-07-21 13:54:48.324 [Worker-107] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/temperatureConvertor-imp/src/com/web/convertertest/TestServiceImplementation.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.convertertest.TestServiceImplementation
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=temperatureConvertor-imp
+2014-07-21 13:58:21.652 [Worker-81] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TestServiceImplementation
+2014-07-21 13:58:21.653 [Worker-81] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/temperatureConvertor-imp/src/com/web/convertertest/TestServiceImplementation.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.convertertest.TestServiceImplementation
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=temperatureConvertor-imp
+2014-07-21 13:58:49.102 [Worker-110] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Tomcat v6.0 Server at localhost
+2014-07-21 13:58:49.102 [Worker-110] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.jdt.launching.CLASSPATH=[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry containerPath="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre8" path="2" type="4"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="C:/Users/Mauricio/Downloads/apache-tomcat-6.0.41/apache-tomcat-6.0.41/bin/bootstrap.jar" path="3" type="2"/>
+]
+entry: org.eclipse.jdt.launching.DEFAULT_CLASSPATH=false
+entry: org.eclipse.jdt.launching.JRE_CONTAINER=org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre8
+entry: org.eclipse.jdt.launching.PROGRAM_ARGUMENTS=start
+entry: org.eclipse.jdt.launching.VM_ARGUMENTS=-Dcatalina.base="C:\Program Files\Software\workspaces\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0" -Dcatalina.home="C:\Users\Mauricio\Downloads\apache-tomcat-6.0.41\apache-tomcat-6.0.41" -Dwtp.deploy="C:\Program Files\Software\workspaces\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps" -Djava.endorsed.dirs="C:\Users\Mauricio\Downloads\apache-tomcat-6.0.41\apache-tomcat-6.0.41\endorsed"
+entry: server-id=Tomcat v6.0 Server at localhost
+2014-07-21 14:00:07.981 [Worker-102] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TemperatureConverterTest
+2014-07-21 14:00:07.981 [Worker-102] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/temperatureConverter-client/src/com/web/converter/TemperatureConverterTest.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.converter.TemperatureConverterTest
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=temperatureConverter-client
+2014-07-21 14:01:10.612 [Worker-108] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TemperatureConverterTest
+2014-07-21 14:01:10.612 [Worker-108] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/temperatureConverter-client/src/com/web/converter/TemperatureConverterTest.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.converter.TemperatureConverterTest
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=temperatureConverter-client
+2014-07-21 14:17:51.330 [JRebel License Expiration Notification Checker] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-07-21 14:17:51.331 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\Mauricio\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Program Files\Software\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-07-21 14:17:51.332 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@5e34545
+2014-07-21 14:17:54.569 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@5e34545 stopped with exit code 0
+2014-07-21 14:44:37.997 [Worker-121] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TestService
+2014-07-21 14:44:37.998 [Worker-121] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/temperatureConvertor-server/src/com/convertor/test/TestService.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.convertor.test.TestService
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=temperatureConvertor-server
+2014-07-21 14:47:54.576 [JRebel License Expiration Notification Checker] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-07-21 14:47:54.577 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\Mauricio\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Program Files\Software\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-07-21 14:47:54.578 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@222c52b7
+2014-07-21 14:47:57.264 [main] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Javadoc
+2014-07-21 14:47:57.267 [main] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.ui.private=true
+2014-07-21 14:47:57.491 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@222c52b7 stopped with exit code 0
+2014-07-21 14:48:32.132 [main] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for temperatureConvertor-imp
+2014-07-21 14:48:32.132 [main] DEBUG RebelArgsFixingLaunchListener - 
+entry: client-id=org.eclipse.wst.server.ui.web
+entry: launchable-adapter-id=org.eclipse.jst.server.tomcat.web
+entry: module-artifact=org.eclipse.jst.jee.server:temperatureConvertor-imp//
+entry: module-artifact-class=org.eclipse.wst.server.core.util.WebResource
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/temperatureConvertor-imp]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4]
+entry: server-id=Tomcat v6.0 Server at localhost
+2014-07-21 14:48:32.181 [Worker-130] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Tomcat v6.0 Server at localhost
+2014-07-21 14:48:32.182 [Worker-130] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.jdt.launching.CLASSPATH=[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry containerPath="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre8" path="2" type="4"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="C:/Users/Mauricio/Downloads/apache-tomcat-6.0.41/apache-tomcat-6.0.41/bin/bootstrap.jar" path="3" type="2"/>
+]
+entry: org.eclipse.jdt.launching.DEFAULT_CLASSPATH=false
+entry: org.eclipse.jdt.launching.JRE_CONTAINER=org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre8
+entry: org.eclipse.jdt.launching.PROGRAM_ARGUMENTS=start
+entry: org.eclipse.jdt.launching.VM_ARGUMENTS=-Dcatalina.base="C:\Program Files\Software\workspaces\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0" -Dcatalina.home="C:\Users\Mauricio\Downloads\apache-tomcat-6.0.41\apache-tomcat-6.0.41" -Dwtp.deploy="C:\Program Files\Software\workspaces\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps" -Djava.endorsed.dirs="C:\Users\Mauricio\Downloads\apache-tomcat-6.0.41\apache-tomcat-6.0.41\endorsed"
+entry: server-id=Tomcat v6.0 Server at localhost
+2014-07-21 14:50:56.418 [Worker-128] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Tomcat v6.0 Server at localhost
+2014-07-21 14:50:56.418 [Worker-128] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.jdt.launching.CLASSPATH=[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry containerPath="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre8" path="2" type="4"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="C:/Users/Mauricio/Downloads/apache-tomcat-6.0.41/apache-tomcat-6.0.41/bin/bootstrap.jar" path="3" type="2"/>
+]
+entry: org.eclipse.jdt.launching.DEFAULT_CLASSPATH=false
+entry: org.eclipse.jdt.launching.JRE_CONTAINER=org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre8
+entry: org.eclipse.jdt.launching.PROGRAM_ARGUMENTS=start
+entry: org.eclipse.jdt.launching.VM_ARGUMENTS=-Dcatalina.base="C:\Program Files\Software\workspaces\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0" -Dcatalina.home="C:\Users\Mauricio\Downloads\apache-tomcat-6.0.41\apache-tomcat-6.0.41" -Dwtp.deploy="C:\Program Files\Software\workspaces\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps" -Djava.endorsed.dirs="C:\Users\Mauricio\Downloads\apache-tomcat-6.0.41\apache-tomcat-6.0.41\endorsed"
+entry: server-id=Tomcat v6.0 Server at localhost
+2014-07-21 14:51:04.727 [Worker-132] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TemperatureConverterTest
+2014-07-21 14:51:04.727 [Worker-132] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/temperatureConverter-client/src/com/web/converter/TemperatureConverterTest.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.web.converter.TemperatureConverterTest
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=temperatureConverter-client

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Licensee: 
+License Type: Evaluation
+-->
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="cst_dom.Cst_rol" table="cst_rol" lazy="false">
+		<id name="idRol" column="idRol" type="integer" unsaved-value="0">
+			<generator class="native">
+			</generator>
+		</id>
+		<property name="cod_rol" column="cod_rol" unique="true" type="integer" length="10" not-null="true" lazy="false"/>
+		<property name="desc_rol" column="desc_rol" type="string" length="20" not-null="true" lazy="false"/>
+		<one-to-one name="cst_usuario" class="cst_dom.Cst_usuario" cascade="save-update,lock" property-ref="cst_rolidRol" lazy="no-proxy" access="field"/>
+	</class>
+</hibernate-mapping>

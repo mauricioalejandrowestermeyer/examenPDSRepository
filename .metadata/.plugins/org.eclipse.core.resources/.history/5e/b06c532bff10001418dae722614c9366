@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Licensee: 
+License Type: Evaluation
+-->
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="cst_dom.Cst_historico" table="cst_historico" lazy="false">
+		<id name="idHistorico" column="idHistorico" type="integer" unsaved-value="0">
+			<generator class="native">
+			</generator>
+		</id>
+		<property name="fecha" column="fecha" type="time" length="7" not-null="true" lazy="false"/>
+		<property name="cst_tokenidToken" column="cst_tokenidToken" type="integer" length="10" not-null="true" lazy="false"/>
+		<many-to-one name="cst_tipo_consultaidTipoConsulta" column="cst_tipo_consultaidTipoConsulta" class="cst_dom.Cst_tipo_consulta" cascade="save-update,lock" unique="true" not-null="true" lazy="no-proxy" access="field">
+		</many-to-one>
+		<many-to-one name="cst_usuarioidUsuario" column="cst_usuarioidUsuario" class="cst_dom.Cst_usuario" cascade="save-update,lock" unique="true" not-null="true" lazy="no-proxy" access="field">
+		</many-to-one>
+	</class>
+</hibernate-mapping>

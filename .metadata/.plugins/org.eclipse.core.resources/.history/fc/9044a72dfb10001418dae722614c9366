@@ -1,0 +1,14 @@
+package com.web.converter;
+
+public class TemperatureConverterTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		TemperatureConverterServiceStub temperatureConverterServiceStub = new TemperatureConverterServiceStub();
+
+	}
+
+}

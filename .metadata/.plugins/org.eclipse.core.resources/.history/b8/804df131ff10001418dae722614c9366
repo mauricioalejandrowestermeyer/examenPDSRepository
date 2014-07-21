@@ -1,0 +1,67 @@
+/**
+ * "Visual Paradigm: DO NOT MODIFY THIS FILE!"
+ * 
+ * This is an automatic generated file. It will be regenerated every time 
+ * you generate persistence class.
+ * 
+ * Modifying its content may cause the program not work, or your work may lost.
+ */
+
+/**
+ * Licensee: 
+ * License Type: Evaluation
+ */
+package cst_dom;
+
+public class Cst_tipo_consulta {
+	public Cst_tipo_consulta() {
+	}
+	
+	private int idTipoConsulta;
+	
+	private String desc_consulta;
+	
+	private cst_dom.Cst_historico cst_historico;
+	
+	private void setIdTipoConsulta(int value) {
+		this.idTipoConsulta = value;
+	}
+	
+	public int getIdTipoConsulta() {
+		return idTipoConsulta;
+	}
+	
+	public int getORMID() {
+		return getIdTipoConsulta();
+	}
+	
+	public void setDesc_consulta(String value) {
+		this.desc_consulta = value;
+	}
+	
+	public String getDesc_consulta() {
+		return desc_consulta;
+	}
+	
+	public void setCst_historico(cst_dom.Cst_historico value) {
+		if (this.cst_historico != value) {
+			cst_dom.Cst_historico lcst_historico = this.cst_historico;
+			this.cst_historico = value;
+			if (value != null) {
+				cst_historico.setCst_tipo_consultaidTipoConsulta(this);
+			}
+			else {
+				lcst_historico.setCst_tipo_consultaidTipoConsulta(null);
+			}
+		}
+	}
+	
+	public cst_dom.Cst_historico getCst_historico() {
+		return cst_historico;
+	}
+	
+	public String toString() {
+		return String.valueOf(getIdTipoConsulta());
+	}
+	
+}

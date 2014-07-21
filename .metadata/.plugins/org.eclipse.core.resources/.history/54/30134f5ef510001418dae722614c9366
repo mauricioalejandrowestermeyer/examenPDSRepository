@@ -1,0 +1,84 @@
+/**
+ * Licensee: 
+ * License Type: Evaluation
+ */
+package ormsamples;
+
+import org.orm.*;
+public class RetrieveAndUpdateUntitledData {
+	public void retrieveAndUpdateTestData() throws PersistentException {
+		PersistentTransaction t = cst_dom.UntitledPersistentManager.instance().getSession().beginTransaction();
+		try {
+			cst_dom.Cst_temperatura lcst_domCst_temperatura = cst_dom.Cst_temperaturaDAO.loadCst_temperaturaByQuery(null, null);
+			// Update the properties of the persistent object
+			cst_dom.Cst_temperaturaDAO.save(lcst_domCst_temperatura);
+			cst_dom.Cst_usuario lcst_domCst_usuario = cst_dom.Cst_usuarioDAO.loadCst_usuarioByQuery(null, null);
+			// Update the properties of the persistent object
+			cst_dom.Cst_usuarioDAO.save(lcst_domCst_usuario);
+			cst_dom.Cst_rol lcst_domCst_rol = cst_dom.Cst_rolDAO.loadCst_rolByQuery(null, null);
+			// Update the properties of the persistent object
+			cst_dom.Cst_rolDAO.save(lcst_domCst_rol);
+			cst_dom.Cst_historico lcst_domCst_historico = cst_dom.Cst_historicoDAO.loadCst_historicoByQuery(null, null);
+			// Update the properties of the persistent object
+			cst_dom.Cst_historicoDAO.save(lcst_domCst_historico);
+			cst_dom.Cst_tipo_consulta lcst_domCst_tipo_consulta = cst_dom.Cst_tipo_consultaDAO.loadCst_tipo_consultaByQuery(null, null);
+			// Update the properties of the persistent object
+			cst_dom.Cst_tipo_consultaDAO.save(lcst_domCst_tipo_consulta);
+			t.commit();
+		}
+		catch (Exception e) {
+			t.rollback();
+		}
+		
+	}
+	
+	public void retrieveByCriteria() throws PersistentException {
+		System.out.println("Retrieving Cst_temperatura by Cst_temperaturaCriteria");
+		cst_dom.Cst_temperaturaCriteria cst_temperaturaCriteria = new cst_dom.Cst_temperaturaCriteria();
+		// Please uncomment the follow line and fill in parameter(s)
+		//cst_temperaturaCriteria.idTemperatura.eq();
+		System.out.println(cst_temperaturaCriteria.uniqueCst_temperatura());
+		
+		System.out.println("Retrieving Cst_usuario by Cst_usuarioCriteria");
+		cst_dom.Cst_usuarioCriteria cst_usuarioCriteria = new cst_dom.Cst_usuarioCriteria();
+		// Please uncomment the follow line and fill in parameter(s)
+		//cst_usuarioCriteria.idUsuario.eq();
+		System.out.println(cst_usuarioCriteria.uniqueCst_usuario());
+		
+		System.out.println("Retrieving Cst_rol by Cst_rolCriteria");
+		cst_dom.Cst_rolCriteria cst_rolCriteria = new cst_dom.Cst_rolCriteria();
+		// Please uncomment the follow line and fill in parameter(s)
+		//cst_rolCriteria.idRol.eq();
+		System.out.println(cst_rolCriteria.uniqueCst_rol());
+		
+		System.out.println("Retrieving Cst_historico by Cst_historicoCriteria");
+		cst_dom.Cst_historicoCriteria cst_historicoCriteria = new cst_dom.Cst_historicoCriteria();
+		// Please uncomment the follow line and fill in parameter(s)
+		//cst_historicoCriteria.idHistorico.eq();
+		System.out.println(cst_historicoCriteria.uniqueCst_historico());
+		
+		System.out.println("Retrieving Cst_tipo_consulta by Cst_tipo_consultaCriteria");
+		cst_dom.Cst_tipo_consultaCriteria cst_tipo_consultaCriteria = new cst_dom.Cst_tipo_consultaCriteria();
+		// Please uncomment the follow line and fill in parameter(s)
+		//cst_tipo_consultaCriteria.idTipoConsulta.eq();
+		System.out.println(cst_tipo_consultaCriteria.uniqueCst_tipo_consulta());
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		try {
+			RetrieveAndUpdateUntitledData retrieveAndUpdateUntitledData = new RetrieveAndUpdateUntitledData();
+			try {
+				retrieveAndUpdateUntitledData.retrieveAndUpdateTestData();
+				//retrieveAndUpdateUntitledData.retrieveByCriteria();
+			}
+			finally {
+				cst_dom.UntitledPersistentManager.instance().disposePersistentManager();
+			}
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

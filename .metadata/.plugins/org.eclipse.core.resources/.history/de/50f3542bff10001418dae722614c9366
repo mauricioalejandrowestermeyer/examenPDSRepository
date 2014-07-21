@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Licensee: 
+License Type: Evaluation
+-->
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="cst_dom.Cst_temperatura" table="cst_temperatura" lazy="false">
+		<id name="idTemperatura" column="idTemperatura" type="integer" unsaved-value="0">
+			<generator class="native">
+			</generator>
+		</id>
+		<property name="key" column="`key`" unique="true" type="integer" length="10" not-null="true" lazy="false"/>
+		<property name="conversion" column="conversion" type="double" length="10" not-null="true" lazy="false"/>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,23 @@
+package com.web.hello;
+
+import java.rmi.RemoteException;
+
+import org.apache.axis2.AxisFault;
+
+import com.web.hello.HelloWorldStub.Salute;
+
+public class TestHelloWorld {
+
+	/**
+	 * @param args
+	 * @throws RemoteException 
+	 * @throws AxisFault 
+	 */
+	public static void main(String[] args) throws AxisFault, RemoteException {
+		HelloWorld hws = new HelloWorld();
+		HelloWorldStub hws2 = new HelloWorldStub();
+		System.out.println((Salute)hws2.salute(hws.salute()));
+
+	}
+
+}

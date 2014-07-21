@@ -1,0 +1,41 @@
+package com.web.hello;
+
+public class Palindrome {
+
+	public static void main(String[] args){
+		
+		System.out.println(palindrome("aaaa")? "es palindrome" : "no es palindrome");
+		
+	}
+	
+	public static boolean palindrome(String palabra){
+		
+		//variable de retorno que nos dice si es palindrome o no
+		boolean esPalindrome = true;
+		//crea un arreglo de caracteres desde la palabra como parámetro
+		char[] palabraAsList = palabra.toCharArray();
+		//si la longitud del arreglo es mayor a 1 (al menos 2 elementos)
+		if(palabra.length()>1){
+			//evalua si el primer y último lugar de la palabra son iguales
+			if(palabra.charAt(0)==palabra.charAt(palabra.length()-1)){	
+				//si lo es, crea una nueva palabra sin estos elementos
+				char[] nuevaPalabra = new char[palabraAsList.length-1];
+				for(int i = 1; i<palabra.length()-1;i++){
+					nuevaPalabra[i-1]=palabra.charAt(i);
+				}
+				//genera la palabra para ser evaluada de nuevo
+				String palabraString = new String(nuevaPalabra);
+				//verifica que la palabra tenga largo mayor a 1
+				if(palabraString.length()>1){
+					//la función se llama a si misma para evaluar la palabra generada
+					esPalindrome = palindrome(palabraString.trim());
+				}				
+			}
+			else{
+				//si no, no es palindrome
+				esPalindrome = false;
+			}
+		}		
+		return esPalindrome;
+	}	
+}

@@ -1,0 +1,13 @@
+package com.web.converter;
+
+import org.orm.PersistentException;
+
+import com.convertor.service.TemperatureConvertorService;
+
+public class TemperatureConverterService {
+
+	public final Double convertTemperature(Double temperature, Integer codConversion, String login, String password) throws PersistentException{
+		TemperatureConvertorService service = new TemperatureConvertorService();
+		return service.convertTemperature(temperature, codConversion, login, password);
+	}
+}

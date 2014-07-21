@@ -1,0 +1,43 @@
+/**
+ * "Visual Paradigm: DO NOT MODIFY THIS FILE!"
+ * 
+ * This is an automatic generated file. It will be regenerated every time 
+ * you generate persistence class.
+ * 
+ * Modifying its content may cause the program not work, or your work may lost.
+ */
+
+/**
+ * Licensee: 
+ * License Type: Evaluation
+ */
+package orm.dao;
+
+import org.orm.*;
+import orm.*;
+
+public interface AlumnoDAO {
+	public Alumno loadAlumnoByORMID(Integer idAlumno) throws PersistentException;
+	public Alumno getAlumnoByORMID(Integer idAlumno) throws PersistentException;
+	public Alumno loadAlumnoByORMID(Integer idAlumno, org.hibernate.LockMode lockMode) throws PersistentException;
+	public Alumno getAlumnoByORMID(Integer idAlumno, org.hibernate.LockMode lockMode) throws PersistentException;
+	public Alumno loadAlumnoByORMID(PersistentSession session, Integer idAlumno) throws PersistentException;
+	public Alumno getAlumnoByORMID(PersistentSession session, Integer idAlumno) throws PersistentException;
+	public Alumno loadAlumnoByORMID(PersistentSession session, Integer idAlumno, org.hibernate.LockMode lockMode) throws PersistentException;
+	public Alumno getAlumnoByORMID(PersistentSession session, Integer idAlumno, org.hibernate.LockMode lockMode) throws PersistentException;
+	public Alumno[] listAlumnoByQuery(String condition, String orderBy) throws PersistentException;
+	public Alumno[] listAlumnoByQuery(String condition, String orderBy, org.hibernate.LockMode lockMode) throws PersistentException;
+	public Alumno[] listAlumnoByQuery(PersistentSession session, String condition, String orderBy) throws PersistentException;
+	public Alumno[] listAlumnoByQuery(PersistentSession session, String condition, String orderBy, org.hibernate.LockMode lockMode) throws PersistentException;
+	public Alumno loadAlumnoByQuery(String condition, String orderBy) throws PersistentException;
+	public Alumno loadAlumnoByQuery(String condition, String orderBy, org.hibernate.LockMode lockMode) throws PersistentException;
+	public Alumno loadAlumnoByQuery(PersistentSession session, String condition, String orderBy) throws PersistentException;
+	public Alumno loadAlumnoByQuery(PersistentSession session, String condition, String orderBy, org.hibernate.LockMode lockMode) throws PersistentException;
+	public Alumno createAlumno();
+	public boolean save(orm.Alumno alumno) throws PersistentException;
+	public boolean delete(orm.Alumno alumno) throws PersistentException;
+	public boolean refresh(orm.Alumno alumno) throws PersistentException;
+	public boolean evict(orm.Alumno alumno) throws PersistentException;
+	public Alumno loadAlumnoByCriteria(AlumnoCriteria alumnoCriteria);
+	public Alumno[] listAlumnoByCriteria(AlumnoCriteria alumnoCriteria);
+}

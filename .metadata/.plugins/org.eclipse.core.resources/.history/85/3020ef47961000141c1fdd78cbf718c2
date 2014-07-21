@@ -1,0 +1,53 @@
+/**
+ * Licensee: 
+ * License Type: Evaluation
+ */
+package ormsamples;
+
+import org.orm.*;
+public class ListUntitledData {
+	private static final int ROW_COUNT = 100;
+	
+public void listTestData() throws PersistentException {
+		orm.DAOFactory lDAOFactory = orm.DAOFactory.getDAOFactory();
+		System.out.println("Listing Alumno...");
+		orm.Alumno[] ormAlumnos = lDAOFactory.getAlumnoDAO().listAlumnoByQuery(null, null);
+		int length = Math.min(ormAlumnos.length, ROW_COUNT);
+		for (int i = 0; i < length; i++) {
+			System.out.println(ormAlumnos[i]);
+		}
+		System.out.println(length + " record(s) retrieved.");
+		
+	}
+	
+	public void listByCriteria() throws PersistentException  {
+		System.out.println("Listing Alumno by Criteria...");
+		orm.AlumnoCriteria alumnoCriteria = new orm.AlumnoCriteria();
+		// Please uncomment the follow line and fill in parameter(s) 
+		//alumnoCriteria.idAlumno.eq();
+		alumnoCriteria.setMaxResults(ROW_COUNT);
+		orm.Alumno[] ormAlumnos = alumnoCriteria.listAlumno();
+		int length =ormAlumnos== null ? 0 : Math.min(ormAlumnos.length, ROW_COUNT); 
+		for (int i = 0; i < length; i++) {
+			 System.out.println(ormAlumnos[i]);
+		}
+		System.out.println(length + " Alumno record(s) retrieved."); 
+		
+	}
+	
+	public static void main(String[] args) {
+		try {
+			ListUntitledData listUntitledData = new ListUntitledData();
+			try {
+				listUntitledData.listTestData();
+				//listUntitledData.listByCriteria();
+			}
+			finally {
+				orm.UntitledPersistentManager.instance().disposePersistentManager();
+			}
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

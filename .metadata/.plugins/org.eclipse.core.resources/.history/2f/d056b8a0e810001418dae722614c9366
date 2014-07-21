@@ -1,0 +1,32 @@
+package com.web.hello;
+
+public class Palindrome {
+
+	public static void main(String[] args){
+		
+		System.out.println(palindrome("aa")? "es palindrome" : "no es palindrome");
+		
+	}
+	
+	public static boolean palindrome(String palabra){
+		
+		boolean esPalindrome = true;
+		char[] palabraAsList = palabra.toCharArray();
+		System.out.println("la longitud es "+palabraAsList.length+"!");
+		if(palabraAsList.length>1){
+			if(palabraAsList[0]==palabraAsList[palabraAsList.length-1]){	
+				char[] nuevaPalabra = new char[palabraAsList.length-1];
+				for(int i = 1; i<palabra.length();i++){
+					nuevaPalabra[i-1]=palabra.charAt(i);
+				}
+				String palabraString = new String(nuevaPalabra);
+				
+				esPalindrome = palindrome(palabraString);
+			}
+			else{
+				esPalindrome = false;
+			}
+		}		
+		return esPalindrome;
+	}	
+}

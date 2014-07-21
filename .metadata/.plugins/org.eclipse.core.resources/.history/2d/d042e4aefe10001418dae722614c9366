@@ -1,0 +1,49 @@
+/**
+ * Licensee: 
+ * License Type: Evaluation
+ */
+package ormsamples;
+
+import org.orm.*;
+public class CreateUntitledData {
+	public void createTestData() throws PersistentException {
+		PersistentTransaction t = cst_dom.UntitledPersistentManager.instance().getSession().beginTransaction();
+		try {
+			cst_dom.Cst_temperatura lcst_domCst_temperatura = cst_dom.Cst_temperaturaDAO.createCst_temperatura();
+			// TODO Initialize the properties of the persistent object here, the following properties must be initialized before saving : conversion, key
+			cst_dom.Cst_temperaturaDAO.save(lcst_domCst_temperatura);
+			cst_dom.Cst_usuario lcst_domCst_usuario = cst_dom.Cst_usuarioDAO.createCst_usuario();
+			// TODO Initialize the properties of the persistent object here, the following properties must be initialized before saving : cst_historico, password, user, cst_rolidRol
+			cst_dom.Cst_usuarioDAO.save(lcst_domCst_usuario);
+			cst_dom.Cst_rol lcst_domCst_rol = cst_dom.Cst_rolDAO.createCst_rol();
+			// TODO Initialize the properties of the persistent object here, the following properties must be initialized before saving : cst_usuario, desc_rol, cod_rol
+			cst_dom.Cst_rolDAO.save(lcst_domCst_rol);
+			cst_dom.Cst_historico lcst_domCst_historico = cst_dom.Cst_historicoDAO.createCst_historico();
+			// TODO Initialize the properties of the persistent object here, the following properties must be initialized before saving : cst_usuarioidUsuario, cst_tipo_consultaidTipoConsulta, fecha
+			cst_dom.Cst_historicoDAO.save(lcst_domCst_historico);
+			cst_dom.Cst_tipo_consulta lcst_domCst_tipo_consulta = cst_dom.Cst_tipo_consultaDAO.createCst_tipo_consulta();
+			// TODO Initialize the properties of the persistent object here, the following properties must be initialized before saving : cst_historico, desc_consulta
+			cst_dom.Cst_tipo_consultaDAO.save(lcst_domCst_tipo_consulta);
+			t.commit();
+		}
+		catch (Exception e) {
+			t.rollback();
+		}
+		
+	}
+	
+	public static void main(String[] args) {
+		try {
+			CreateUntitledData createUntitledData = new CreateUntitledData();
+			try {
+				createUntitledData.createTestData();
+			}
+			finally {
+				cst_dom.UntitledPersistentManager.instance().disposePersistentManager();
+			}
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

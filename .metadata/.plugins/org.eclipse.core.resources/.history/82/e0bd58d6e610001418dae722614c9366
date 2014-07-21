@@ -1,0 +1,28 @@
+package com.web.hello;
+
+public class ArregloOrdenado {
+	
+	private long[]a;
+	private int nElemns;
+	
+	public ArregloOrdenado(int max){
+		a = new long[max];
+		nElemns = 0;
+	}
+	
+	public void insertar(long elemento){
+		if(nElemns<a.length){
+			a[nElemns]=elemento;
+			nElemns++;
+		}
+		else{
+			System.out.println("Arreglo lleno, no caben mas elementos");
+		}
+	}
+
+	public void mostrar(){
+		for(long l : a){
+			System.out.println(l);
+		}
+	}
+}

@@ -1,0 +1,21 @@
+package com.web.converter;
+
+import org.apache.axis2.AxisFault;
+
+public class TemperatureConverterTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		try {
+			TemperatureConverterServiceStub temperatureConverterServiceStub = new TemperatureConverterServiceStub();
+		} catch (AxisFault e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+}

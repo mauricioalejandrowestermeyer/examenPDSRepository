@@ -1,0 +1,16 @@
+package com.web.converter;
+
+import com.convertor.service.TemperatureConvertorService;
+
+public class TemperatureConverterService {
+
+	public final Double convertTemperature(Double temperature, Integer codConversion, String login, String password){
+		TemperatureConvertorService service = new TemperatureConvertorService();
+		return service.convertTemperature(temperature, codConversion, login, password);
+	}
+	
+	public final Integer logUser(String user, String password){
+		TemperatureConvertorService service = new TemperatureConvertorService();
+		return service.logUser(user, password);
+	}
+}

@@ -1,0 +1,50 @@
+/**
+ * Licensee: 
+ * License Type: Evaluation
+ */
+package ormsamples;
+
+import org.orm.*;
+public class RetrieveAndUpdateUntitledData {
+	public void retrieveAndUpdateTestData() throws PersistentException {
+		PersistentTransaction t = orm.UntitledPersistentManager.instance().getSession().beginTransaction();
+		try {
+			orm.DAOFactory lDAOFactory = orm.DAOFactory.getDAOFactory();
+			orm.dao.AlumnoDAO lormAlumnoDAO = lDAOFactory.getAlumnoDAO();
+			orm.Alumno lormAlumno = lormAlumnoDAO.loadAlumnoByQuery(null, null);
+			// Update the properties of the persistent object
+			lormAlumnoDAO.save(lormAlumno);
+			t.commit();
+		}
+		catch (Exception e) {
+			t.rollback();
+		}
+		
+	}
+	
+	public void retrieveByCriteria() throws PersistentException {
+		System.out.println("Retrieving Alumno by AlumnoCriteria");
+		orm.AlumnoCriteria alumnoCriteria = new orm.AlumnoCriteria();
+		// Please uncomment the follow line and fill in parameter(s)
+		//alumnoCriteria.idAlumno.eq();
+		System.out.println(alumnoCriteria.uniqueAlumno());
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		try {
+			RetrieveAndUpdateUntitledData retrieveAndUpdateUntitledData = new RetrieveAndUpdateUntitledData();
+			try {
+				retrieveAndUpdateUntitledData.retrieveAndUpdateTestData();
+				//retrieveAndUpdateUntitledData.retrieveByCriteria();
+			}
+			finally {
+				orm.UntitledPersistentManager.instance().disposePersistentManager();
+			}
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

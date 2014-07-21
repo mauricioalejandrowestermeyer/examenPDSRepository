@@ -1,0 +1,38 @@
+/**
+ * 
+ */
+package com.convertor.test;
+
+import junit.framework.TestCase;
+
+/**
+ * @author Mauricio
+ *
+ */
+public class JUnitTest extends TestCase {
+	
+	protected String login = "admin";
+	protected String password = "admin";
+
+	/**
+	 * @param name
+	 */
+	public JUnitTest(String name) {
+		super(name);
+	}
+
+	/* (non-Javadoc)
+	 * @see junit.framework.TestCase#setUp()
+	 */
+	protected void setUp() throws Exception {
+		super.setUp();
+	}
+
+	/* (non-Javadoc)
+	 * @see junit.framework.TestCase#tearDown()
+	 */
+	protected void tearDown() throws Exception {
+		super.tearDown();
+	}
+
+}

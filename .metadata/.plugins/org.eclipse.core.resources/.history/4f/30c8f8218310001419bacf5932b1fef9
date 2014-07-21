@@ -1,0 +1,9 @@
+package com.web.hello;
+
+public class HelloWorld {
+	
+	public final String salute(){
+		return "hello world!",
+	}
+
+}

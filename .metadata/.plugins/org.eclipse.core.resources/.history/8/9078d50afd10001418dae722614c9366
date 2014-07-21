@@ -1,0 +1,16 @@
+package com.convertor.test;
+
+import com.convertor.service.TemperatureConvertorService;
+
+public class TestService {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		TemperatureConvertorService temperatureConvertorService = new TemperatureConvertorService();
+
+	}
+
+}

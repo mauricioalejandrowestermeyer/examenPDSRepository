@@ -1,0 +1,42 @@
+/**
+ * "Visual Paradigm: DO NOT MODIFY THIS FILE!"
+ * 
+ * This is an automatic generated file. It will be regenerated every time 
+ * you generate persistence class.
+ * 
+ * Modifying its content may cause the program not work, or your work may lost.
+ */
+
+/**
+ * Licensee: 
+ * License Type: Evaluation
+ */
+package orm;
+
+public class Alumno {
+	public Alumno() {
+	}
+	
+	private Integer idAlumno;
+	
+	private void setIdAlumno(int value) {
+		setIdAlumno(new Integer(value));
+	}
+	
+	private void setIdAlumno(Integer value) {
+		this.idAlumno = value;
+	}
+	
+	public Integer getIdAlumno() {
+		return idAlumno;
+	}
+	
+	public Integer getORMID() {
+		return getIdAlumno();
+	}
+	
+	public String toString() {
+		return String.valueOf(getIdAlumno());
+	}
+	
+}

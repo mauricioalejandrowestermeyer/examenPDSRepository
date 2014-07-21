@@ -1,0 +1,16 @@
+package com.convertor.test;
+
+
+public class TestService {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		JUnitTest test = new JUnitTest("testAdd");
+		test.run();
+
+	}
+
+}

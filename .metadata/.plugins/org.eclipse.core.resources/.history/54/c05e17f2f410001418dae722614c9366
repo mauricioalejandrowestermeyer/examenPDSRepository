@@ -1,0 +1,347 @@
+/**
+ * "Visual Paradigm: DO NOT MODIFY THIS FILE!"
+ * 
+ * This is an automatic generated file. It will be regenerated every time 
+ * you generate persistence class.
+ * 
+ * Modifying its content may cause the program not work, or your work may lost.
+ */
+
+/**
+ * Licensee: 
+ * License Type: Evaluation
+ */
+package cst_dom;
+
+import org.orm.*;
+import org.hibernate.Query;
+import java.util.List;
+
+public class Cst_tokenDAO {
+	public static Cst_token loadCst_tokenByORMID(int idToken) throws PersistentException {
+		try {
+			PersistentSession session = cst_dom.UntitledPersistentManager.instance().getSession();
+			return loadCst_tokenByORMID(session, idToken);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public static Cst_token getCst_tokenByORMID(int idToken) throws PersistentException {
+		try {
+			PersistentSession session = cst_dom.UntitledPersistentManager.instance().getSession();
+			return getCst_tokenByORMID(session, idToken);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public static Cst_token loadCst_tokenByORMID(int idToken, org.hibernate.LockMode lockMode) throws PersistentException {
+		try {
+			PersistentSession session = cst_dom.UntitledPersistentManager.instance().getSession();
+			return loadCst_tokenByORMID(session, idToken, lockMode);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public static Cst_token getCst_tokenByORMID(int idToken, org.hibernate.LockMode lockMode) throws PersistentException {
+		try {
+			PersistentSession session = cst_dom.UntitledPersistentManager.instance().getSession();
+			return getCst_tokenByORMID(session, idToken, lockMode);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public static Cst_token loadCst_tokenByORMID(PersistentSession session, int idToken) throws PersistentException {
+		try {
+			return (Cst_token) session.load(cst_dom.Cst_token.class, new Integer(idToken));
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public static Cst_token getCst_tokenByORMID(PersistentSession session, int idToken) throws PersistentException {
+		try {
+			return (Cst_token) session.get(cst_dom.Cst_token.class, new Integer(idToken));
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public static Cst_token loadCst_tokenByORMID(PersistentSession session, int idToken, org.hibernate.LockMode lockMode) throws PersistentException {
+		try {
+			return (Cst_token) session.load(cst_dom.Cst_token.class, new Integer(idToken), lockMode);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public static Cst_token getCst_tokenByORMID(PersistentSession session, int idToken, org.hibernate.LockMode lockMode) throws PersistentException {
+		try {
+			return (Cst_token) session.get(cst_dom.Cst_token.class, new Integer(idToken), lockMode);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public static Cst_token[] listCst_tokenByQuery(String condition, String orderBy) throws PersistentException {
+		try {
+			PersistentSession session = cst_dom.UntitledPersistentManager.instance().getSession();
+			return listCst_tokenByQuery(session, condition, orderBy);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public static Cst_token[] listCst_tokenByQuery(String condition, String orderBy, org.hibernate.LockMode lockMode) throws PersistentException {
+		try {
+			PersistentSession session = cst_dom.UntitledPersistentManager.instance().getSession();
+			return listCst_tokenByQuery(session, condition, orderBy, lockMode);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public static Cst_token[] listCst_tokenByQuery(PersistentSession session, String condition, String orderBy) throws PersistentException {
+		StringBuffer sb = new StringBuffer("From cst_dom.Cst_token as Cst_token");
+		if (condition != null)
+			sb.append(" Where ").append(condition);
+		if (orderBy != null)
+			sb.append(" Order By ").append(orderBy);
+		try {
+			Query query = session.createQuery(sb.toString());
+			List list = query.list();
+			return (Cst_token[]) list.toArray(new Cst_token[list.size()]);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public static Cst_token[] listCst_tokenByQuery(PersistentSession session, String condition, String orderBy, org.hibernate.LockMode lockMode) throws PersistentException {
+		StringBuffer sb = new StringBuffer("From cst_dom.Cst_token as Cst_token");
+		if (condition != null)
+			sb.append(" Where ").append(condition);
+		if (orderBy != null)
+			sb.append(" Order By ").append(orderBy);
+		try {
+			Query query = session.createQuery(sb.toString());
+			query.setLockMode("this", lockMode);
+			List list = query.list();
+			return (Cst_token[]) list.toArray(new Cst_token[list.size()]);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public static Cst_token loadCst_tokenByQuery(String condition, String orderBy) throws PersistentException {
+		try {
+			PersistentSession session = cst_dom.UntitledPersistentManager.instance().getSession();
+			return loadCst_tokenByQuery(session, condition, orderBy);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public static Cst_token loadCst_tokenByQuery(String condition, String orderBy, org.hibernate.LockMode lockMode) throws PersistentException {
+		try {
+			PersistentSession session = cst_dom.UntitledPersistentManager.instance().getSession();
+			return loadCst_tokenByQuery(session, condition, orderBy, lockMode);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public static Cst_token loadCst_tokenByQuery(PersistentSession session, String condition, String orderBy) throws PersistentException {
+		Cst_token[] cst_tokens = listCst_tokenByQuery(session, condition, orderBy);
+		if (cst_tokens != null && cst_tokens.length > 0)
+			return cst_tokens[0];
+		else
+			return null;
+	}
+	
+	public static Cst_token loadCst_tokenByQuery(PersistentSession session, String condition, String orderBy, org.hibernate.LockMode lockMode) throws PersistentException {
+		Cst_token[] cst_tokens = listCst_tokenByQuery(session, condition, orderBy, lockMode);
+		if (cst_tokens != null && cst_tokens.length > 0)
+			return cst_tokens[0];
+		else
+			return null;
+	}
+	
+	public static java.util.Iterator iterateCst_tokenByQuery(String condition, String orderBy) throws PersistentException {
+		try {
+			PersistentSession session = cst_dom.UntitledPersistentManager.instance().getSession();
+			return iterateCst_tokenByQuery(session, condition, orderBy);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public static java.util.Iterator iterateCst_tokenByQuery(String condition, String orderBy, org.hibernate.LockMode lockMode) throws PersistentException {
+		try {
+			PersistentSession session = cst_dom.UntitledPersistentManager.instance().getSession();
+			return iterateCst_tokenByQuery(session, condition, orderBy, lockMode);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public static java.util.Iterator iterateCst_tokenByQuery(PersistentSession session, String condition, String orderBy) throws PersistentException {
+		StringBuffer sb = new StringBuffer("From cst_dom.Cst_token as Cst_token");
+		if (condition != null)
+			sb.append(" Where ").append(condition);
+		if (orderBy != null)
+			sb.append(" Order By ").append(orderBy);
+		try {
+			Query query = session.createQuery(sb.toString());
+			return query.iterate();
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public static java.util.Iterator iterateCst_tokenByQuery(PersistentSession session, String condition, String orderBy, org.hibernate.LockMode lockMode) throws PersistentException {
+		StringBuffer sb = new StringBuffer("From cst_dom.Cst_token as Cst_token");
+		if (condition != null)
+			sb.append(" Where ").append(condition);
+		if (orderBy != null)
+			sb.append(" Order By ").append(orderBy);
+		try {
+			Query query = session.createQuery(sb.toString());
+			query.setLockMode("this", lockMode);
+			return query.iterate();
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public static Cst_token createCst_token() {
+		return new cst_dom.Cst_token();
+	}
+	
+	public static boolean save(cst_dom.Cst_token cst_token) throws PersistentException {
+		try {
+			cst_dom.UntitledPersistentManager.instance().saveObject(cst_token);
+			return true;
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public static boolean delete(cst_dom.Cst_token cst_token) throws PersistentException {
+		try {
+			cst_dom.UntitledPersistentManager.instance().deleteObject(cst_token);
+			return true;
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public static boolean deleteAndDissociate(cst_dom.Cst_token cst_token)throws PersistentException {
+		try {
+			if(cst_token.getCst_historico() != null) {
+				cst_token.getCst_historico().setCst_tokenidToken(null);
+			}
+			
+			return delete(cst_token);
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public static boolean deleteAndDissociate(cst_dom.Cst_token cst_token, org.orm.PersistentSession session)throws PersistentException {
+		try {
+			if(cst_token.getCst_historico() != null) {
+				cst_token.getCst_historico().setCst_tokenidToken(null);
+			}
+			
+			try {
+				session.delete(cst_token);
+				return true;
+			} catch (Exception e) {
+				return false;
+			}
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public static boolean refresh(cst_dom.Cst_token cst_token) throws PersistentException {
+		try {
+			cst_dom.UntitledPersistentManager.instance().getSession().refresh(cst_token);
+			return true;
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public static boolean evict(cst_dom.Cst_token cst_token) throws PersistentException {
+		try {
+			cst_dom.UntitledPersistentManager.instance().getSession().evict(cst_token);
+			return true;
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public static Cst_token loadCst_tokenByCriteria(Cst_tokenCriteria cst_tokenCriteria) {
+		Cst_token[] cst_tokens = listCst_tokenByCriteria(cst_tokenCriteria);
+		if(cst_tokens == null || cst_tokens.length == 0) {
+			return null;
+		}
+		return cst_tokens[0];
+	}
+	
+	public static Cst_token[] listCst_tokenByCriteria(Cst_tokenCriteria cst_tokenCriteria) {
+		return cst_tokenCriteria.listCst_token();
+	}
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Licensee: 
+License Type: Evaluation
+-->
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="cst_dom.Cst_tipo_consulta" table="cst_tipo_consulta" lazy="false">
+		<id name="idTipoConsulta" column="idTipoConsulta" type="integer" unsaved-value="0">
+			<generator class="native">
+			</generator>
+		</id>
+		<property name="desc_consulta" column="desc_consulta" type="integer" length="10" not-null="true" lazy="false"/>
+		<one-to-one name="cst_historico" class="cst_dom.Cst_historico" cascade="save-update,lock" property-ref="cst_tipo_consultaidTipoConsulta" lazy="no-proxy" access="field"/>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,86 @@
+/**
+ * "Visual Paradigm: DO NOT MODIFY THIS FILE!"
+ * 
+ * This is an automatic generated file. It will be regenerated every time 
+ * you generate persistence class.
+ * 
+ * Modifying its content may cause the program not work, or your work may lost.
+ */
+
+/**
+ * Licensee: 
+ * License Type: Evaluation
+ */
+package cst_dom;
+
+public class Cst_historico {
+	public Cst_historico() {
+	}
+	
+	private int idHistorico;
+	
+	private java.sql.Time fecha;
+	
+	private cst_dom.Cst_tipo_consulta cst_tipo_consultaidTipoConsulta;
+	
+	private cst_dom.Cst_usuario cst_usuarioidUsuario;
+	
+	private void setIdHistorico(int value) {
+		this.idHistorico = value;
+	}
+	
+	public int getIdHistorico() {
+		return idHistorico;
+	}
+	
+	public int getORMID() {
+		return getIdHistorico();
+	}
+	
+	public void setFecha(java.sql.Time value) {
+		this.fecha = value;
+	}
+	
+	public java.sql.Time getFecha() {
+		return fecha;
+	}
+	
+	public void setCst_usuarioidUsuario(cst_dom.Cst_usuario value) {
+		if (this.cst_usuarioidUsuario != value) {
+			cst_dom.Cst_usuario lcst_usuarioidUsuario = this.cst_usuarioidUsuario;
+			this.cst_usuarioidUsuario = value;
+			if (value != null) {
+				cst_usuarioidUsuario.setCst_historico(this);
+			}
+			else {
+				lcst_usuarioidUsuario.setCst_historico(null);
+			}
+		}
+	}
+	
+	public cst_dom.Cst_usuario getCst_usuarioidUsuario() {
+		return cst_usuarioidUsuario;
+	}
+	
+	public void setCst_tipo_consultaidTipoConsulta(cst_dom.Cst_tipo_consulta value) {
+		if (this.cst_tipo_consultaidTipoConsulta != value) {
+			cst_dom.Cst_tipo_consulta lcst_tipo_consultaidTipoConsulta = this.cst_tipo_consultaidTipoConsulta;
+			this.cst_tipo_consultaidTipoConsulta = value;
+			if (value != null) {
+				cst_tipo_consultaidTipoConsulta.setCst_historico(this);
+			}
+			else {
+				lcst_tipo_consultaidTipoConsulta.setCst_historico(null);
+			}
+		}
+	}
+	
+	public cst_dom.Cst_tipo_consulta getCst_tipo_consultaidTipoConsulta() {
+		return cst_tipo_consultaidTipoConsulta;
+	}
+	
+	public String toString() {
+		return String.valueOf(getIdHistorico());
+	}
+	
+}

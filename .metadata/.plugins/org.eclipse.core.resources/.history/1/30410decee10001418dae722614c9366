@@ -1,0 +1,315 @@
+/**
+ * "Visual Paradigm: DO NOT MODIFY THIS FILE!"
+ * 
+ * This is an automatic generated file. It will be regenerated every time 
+ * you generate persistence class.
+ * 
+ * Modifying its content may cause the program not work, or your work may lost.
+ */
+
+/**
+ * Licensee: 
+ * License Type: Evaluation
+ */
+package orm.impl;
+
+import org.orm.*;
+import org.hibernate.Query;
+import java.util.List;
+import orm.*;
+
+public class AlumnoDAOImpl implements orm.dao.AlumnoDAO {
+	public Alumno loadAlumnoByORMID(Integer idAlumno) throws PersistentException {
+		try {
+			PersistentSession session = orm.UntitledPersistentManager.instance().getSession();
+			return loadAlumnoByORMID(session, idAlumno);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public Alumno getAlumnoByORMID(Integer idAlumno) throws PersistentException {
+		try {
+			PersistentSession session = orm.UntitledPersistentManager.instance().getSession();
+			return getAlumnoByORMID(session, idAlumno);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public Alumno loadAlumnoByORMID(Integer idAlumno, org.hibernate.LockMode lockMode) throws PersistentException {
+		try {
+			PersistentSession session = orm.UntitledPersistentManager.instance().getSession();
+			return loadAlumnoByORMID(session, idAlumno, lockMode);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public Alumno getAlumnoByORMID(Integer idAlumno, org.hibernate.LockMode lockMode) throws PersistentException {
+		try {
+			PersistentSession session = orm.UntitledPersistentManager.instance().getSession();
+			return getAlumnoByORMID(session, idAlumno, lockMode);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public Alumno loadAlumnoByORMID(PersistentSession session, Integer idAlumno) throws PersistentException {
+		try {
+			return (Alumno) session.load(orm.Alumno.class, idAlumno);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public Alumno getAlumnoByORMID(PersistentSession session, Integer idAlumno) throws PersistentException {
+		try {
+			return (Alumno) session.get(orm.Alumno.class, idAlumno);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public Alumno loadAlumnoByORMID(PersistentSession session, Integer idAlumno, org.hibernate.LockMode lockMode) throws PersistentException {
+		try {
+			return (Alumno) session.load(orm.Alumno.class, idAlumno, lockMode);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public Alumno getAlumnoByORMID(PersistentSession session, Integer idAlumno, org.hibernate.LockMode lockMode) throws PersistentException {
+		try {
+			return (Alumno) session.get(orm.Alumno.class, idAlumno, lockMode);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public Alumno[] listAlumnoByQuery(String condition, String orderBy) throws PersistentException {
+		try {
+			PersistentSession session = orm.UntitledPersistentManager.instance().getSession();
+			return listAlumnoByQuery(session, condition, orderBy);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public Alumno[] listAlumnoByQuery(String condition, String orderBy, org.hibernate.LockMode lockMode) throws PersistentException {
+		try {
+			PersistentSession session = orm.UntitledPersistentManager.instance().getSession();
+			return listAlumnoByQuery(session, condition, orderBy, lockMode);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public Alumno[] listAlumnoByQuery(PersistentSession session, String condition, String orderBy) throws PersistentException {
+		StringBuffer sb = new StringBuffer("From orm.Alumno as Alumno");
+		if (condition != null)
+			sb.append(" Where ").append(condition);
+		if (orderBy != null)
+			sb.append(" Order By ").append(orderBy);
+		try {
+			Query query = session.createQuery(sb.toString());
+			List list = query.list();
+			return (Alumno[]) list.toArray(new Alumno[list.size()]);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public Alumno[] listAlumnoByQuery(PersistentSession session, String condition, String orderBy, org.hibernate.LockMode lockMode) throws PersistentException {
+		StringBuffer sb = new StringBuffer("From orm.Alumno as Alumno");
+		if (condition != null)
+			sb.append(" Where ").append(condition);
+		if (orderBy != null)
+			sb.append(" Order By ").append(orderBy);
+		try {
+			Query query = session.createQuery(sb.toString());
+			query.setLockMode("this", lockMode);
+			List list = query.list();
+			return (Alumno[]) list.toArray(new Alumno[list.size()]);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public Alumno loadAlumnoByQuery(String condition, String orderBy) throws PersistentException {
+		try {
+			PersistentSession session = orm.UntitledPersistentManager.instance().getSession();
+			return loadAlumnoByQuery(session, condition, orderBy);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public Alumno loadAlumnoByQuery(String condition, String orderBy, org.hibernate.LockMode lockMode) throws PersistentException {
+		try {
+			PersistentSession session = orm.UntitledPersistentManager.instance().getSession();
+			return loadAlumnoByQuery(session, condition, orderBy, lockMode);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public Alumno loadAlumnoByQuery(PersistentSession session, String condition, String orderBy) throws PersistentException {
+		Alumno[] alumnos = listAlumnoByQuery(session, condition, orderBy);
+		if (alumnos != null && alumnos.length > 0)
+			return alumnos[0];
+		else
+			return null;
+	}
+	
+	public Alumno loadAlumnoByQuery(PersistentSession session, String condition, String orderBy, org.hibernate.LockMode lockMode) throws PersistentException {
+		Alumno[] alumnos = listAlumnoByQuery(session, condition, orderBy, lockMode);
+		if (alumnos != null && alumnos.length > 0)
+			return alumnos[0];
+		else
+			return null;
+	}
+	
+	public static java.util.Iterator iterateAlumnoByQuery(String condition, String orderBy) throws PersistentException {
+		try {
+			PersistentSession session = orm.UntitledPersistentManager.instance().getSession();
+			return iterateAlumnoByQuery(session, condition, orderBy);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public static java.util.Iterator iterateAlumnoByQuery(String condition, String orderBy, org.hibernate.LockMode lockMode) throws PersistentException {
+		try {
+			PersistentSession session = orm.UntitledPersistentManager.instance().getSession();
+			return iterateAlumnoByQuery(session, condition, orderBy, lockMode);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public static java.util.Iterator iterateAlumnoByQuery(PersistentSession session, String condition, String orderBy) throws PersistentException {
+		StringBuffer sb = new StringBuffer("From orm.Alumno as Alumno");
+		if (condition != null)
+			sb.append(" Where ").append(condition);
+		if (orderBy != null)
+			sb.append(" Order By ").append(orderBy);
+		try {
+			Query query = session.createQuery(sb.toString());
+			return query.iterate();
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public static java.util.Iterator iterateAlumnoByQuery(PersistentSession session, String condition, String orderBy, org.hibernate.LockMode lockMode) throws PersistentException {
+		StringBuffer sb = new StringBuffer("From orm.Alumno as Alumno");
+		if (condition != null)
+			sb.append(" Where ").append(condition);
+		if (orderBy != null)
+			sb.append(" Order By ").append(orderBy);
+		try {
+			Query query = session.createQuery(sb.toString());
+			query.setLockMode("this", lockMode);
+			return query.iterate();
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public Alumno createAlumno() {
+		return new orm.Alumno();
+	}
+	
+	public boolean save(orm.Alumno alumno) throws PersistentException {
+		try {
+			orm.UntitledPersistentManager.instance().saveObject(alumno);
+			return true;
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public boolean delete(orm.Alumno alumno) throws PersistentException {
+		try {
+			orm.UntitledPersistentManager.instance().deleteObject(alumno);
+			return true;
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public boolean refresh(orm.Alumno alumno) throws PersistentException {
+		try {
+			orm.UntitledPersistentManager.instance().getSession().refresh(alumno);
+			return true;
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public boolean evict(orm.Alumno alumno) throws PersistentException {
+		try {
+			orm.UntitledPersistentManager.instance().getSession().evict(alumno);
+			return true;
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			throw new PersistentException(e);
+		}
+	}
+	
+	public Alumno loadAlumnoByCriteria(AlumnoCriteria alumnoCriteria) {
+		Alumno[] alumnos = listAlumnoByCriteria(alumnoCriteria);
+		if(alumnos == null || alumnos.length == 0) {
+			return null;
+		}
+		return alumnos[0];
+	}
+	
+	public Alumno[] listAlumnoByCriteria(AlumnoCriteria alumnoCriteria) {
+		return alumnoCriteria.listAlumno();
+	}
+}
