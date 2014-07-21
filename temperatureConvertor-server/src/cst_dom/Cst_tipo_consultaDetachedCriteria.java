@@ -1,0 +1,50 @@
+/**
+ * "Visual Paradigm: DO NOT MODIFY THIS FILE!"
+ * 
+ * This is an automatic generated file. It will be regenerated every time 
+ * you generate persistence class.
+ * 
+ * Modifying its content may cause the program not work, or your work may lost.
+ */
+
+/**
+ * Licensee: 
+ * License Type: Evaluation
+ */
+package cst_dom;
+
+import java.util.List;
+import org.hibernate.criterion.DetachedCriteria;
+import org.orm.PersistentSession;
+import org.orm.criteria.*;
+
+public class Cst_tipo_consultaDetachedCriteria extends AbstractORMDetachedCriteria {
+	public final IntegerExpression idTipoConsulta;
+	public final StringExpression desc_consulta;
+	
+	public Cst_tipo_consultaDetachedCriteria() {
+		super(cst_dom.Cst_tipo_consulta.class, cst_dom.Cst_tipo_consultaCriteria.class);
+		idTipoConsulta = new IntegerExpression("idTipoConsulta", this.getDetachedCriteria());
+		desc_consulta = new StringExpression("desc_consulta", this.getDetachedCriteria());
+	}
+	
+	public Cst_tipo_consultaDetachedCriteria(DetachedCriteria aDetachedCriteria) {
+		super(aDetachedCriteria, cst_dom.Cst_tipo_consultaCriteria.class);
+		idTipoConsulta = new IntegerExpression("idTipoConsulta", this.getDetachedCriteria());
+		desc_consulta = new StringExpression("desc_consulta", this.getDetachedCriteria());
+	}
+	
+	public Cst_historicoDetachedCriteria createCst_historicoCriteria() {
+		return new Cst_historicoDetachedCriteria(createCriteria("cst_historico"));
+	}
+	
+	public Cst_tipo_consulta uniqueCst_tipo_consulta(PersistentSession session) {
+		return (Cst_tipo_consulta) super.createExecutableCriteria(session).uniqueResult();
+	}
+	
+	public Cst_tipo_consulta[] listCst_tipo_consulta(PersistentSession session) {
+		List list = super.createExecutableCriteria(session).list();
+		return (Cst_tipo_consulta[]) list.toArray(new Cst_tipo_consulta[list.size()]);
+	}
+}
+
